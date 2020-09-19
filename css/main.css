@@ -488,7 +488,7 @@ html[dir=ltr] .shop .counter {
 .config-list-li .config-link {
     color: #11191f;
     text-decoration: none;
-    font-size: "medium";
+    font-family: "medium";
     font-size: 14px;
     transition: all 0.4s ease-in-out;
 }
