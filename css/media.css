@@ -7,11 +7,6 @@
         padding: 20px 0;
     }
     .header .page-rools {
-        padding-top: 0;
-        margin-bottom: 15px;
-        justify-content: center;
-    }
-    .header .page-rools .welcome {
         display: none;
     }
     .menu-search {
@@ -186,23 +181,23 @@
     .nav-li .nav-link:hover {
         color: #f3aa4d;
     }
+    .nav-list .nav-li:nth-child(1),
     .nav-list .nav-li:nth-child(2),
-    .nav-list .nav-li:nth-child(15),
-    .nav-list .nav-li:nth-child(16) {
+    .nav-list .nav-li:nth-child(4) {
         display: block;
     }
+    html[dir=ltr] .nav-list .nav-li:nth-child(1),
     html[dir=ltr] .nav-list .nav-li:nth-child(2),
-    html[dir=ltr] .nav-list .nav-li:nth-child(15),
-    html[dir=ltr] .nav-list .nav-li:nth-child(16) {
+    html[dir=ltr] .nav-list .nav-li:nth-child(4) {
         margin-right: 0;
         margin-left: 0;
     }
-    .nav-list .nav-li:nth-child(2),
-    .nav-list .nav-li:nth-child(15) {
+    .nav-list .nav-li:nth-child(1),
+    .nav-list .nav-li:nth-child(2) {
         padding-bottom: 0;
     }
-    .nav-list .nav-li:nth-child(2) .nav-link,
-    .nav-list .nav-li:nth-child(15) .nav-link {
+    .nav-list .nav-li:nth-child(1) .nav-link,
+    .nav-list .nav-li:nth-child(2) .nav-link {
         margin-bottom: 5px;
     }
     .nav .config-name,
@@ -625,15 +620,6 @@
         padding: 20px 0;
     }
     .header .page-rools {
-        padding-top: 0;
-        margin-bottom: 15px;
-        justify-content: center;
-    }
-    .currency .currency-name,
-    .language .language-name {
-        font-size: 16px;
-    }
-    .header .page-rools .welcome {
         display: none;
     }
     .menu-search {
@@ -811,23 +797,23 @@
     .nav-li .nav-link:hover {
         color: #f3aa4d;
     }
+    .nav-list .nav-li:nth-child(1),
     .nav-list .nav-li:nth-child(2),
-    .nav-list .nav-li:nth-child(15),
-    .nav-list .nav-li:nth-child(16) {
+    .nav-list .nav-li:nth-child(4) {
         display: block;
     }
+    html[dir=ltr] .nav-list .nav-li:nth-child(1),
     html[dir=ltr] .nav-list .nav-li:nth-child(2),
-    html[dir=ltr] .nav-list .nav-li:nth-child(15),
-    html[dir=ltr] .nav-list .nav-li:nth-child(16) {
+    html[dir=ltr] .nav-list .nav-li:nth-child(4) {
         margin-right: 0;
         margin-left: 0;
     }
-    .nav-list .nav-li:nth-child(2),
-    .nav-list .nav-li:nth-child(15) {
+    .nav-list .nav-li:nth-child(1),
+    .nav-list .nav-li:nth-child(2) {
         padding-bottom: 0;
     }
-    .nav-list .nav-li:nth-child(2) .nav-link,
-    .nav-list .nav-li:nth-child(15) .nav-link {
+    .nav-list .nav-li:nth-child(1) .nav-link,
+    .nav-list .nav-li:nth-child(2) .nav-link {
         margin-bottom: 5px;
     }
     .nav .config-name,
