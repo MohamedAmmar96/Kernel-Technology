@@ -35,48 +35,48 @@ wow.init();
 
 $(document).ready(function() {
 
-    // This is to Open Language menu in large Screens
-    $(".language .language-name").click(function() {
-        $(".lang-back").fadeIn(300);
-    });
-    $(".language .language-name").click(function() {
-        $(".language .language-list").slideDown(300);
-    });
-    $(".lang-back").click(function() {
-        $(".lang-back").fadeOut(300);
-    });
-    $(".lang-back").click(function() {
-        $(".language .language-list").slideUp(300);
-    });
+    // // This is to Open Language menu in large Screens
+    // $(".language .language-name").click(function() {
+    //     $(".lang-back").fadeIn(300);
+    // });
+    // $(".language .language-name").click(function() {
+    //     $(".language .language-list").slideDown(300);
+    // });
+    // $(".lang-back").click(function() {
+    //     $(".lang-back").fadeOut(300);
+    // });
+    // $(".lang-back").click(function() {
+    //     $(".language .language-list").slideUp(300);
+    // });
 
-    // This is to Open Language menu in large Screens
-    $(".currency .currency-name").click(function() {
-        $(".lang-back").fadeIn(300);
-    });
-    $(".currency .currency-name").click(function() {
-        $(".currency .currency-list").slideDown(300);
-    });
-    $(".lang-back").click(function() {
-        $(".lang-back").fadeOut(300);
-    });
-    $(".lang-back").click(function() {
-        $(".currency .currency-list").slideUp(300);
-    });
+    // // This is to Open Language menu in large Screens
+    // $(".currency .currency-name").click(function() {
+    //     $(".lang-back").fadeIn(300);
+    // });
+    // $(".currency .currency-name").click(function() {
+    //     $(".currency .currency-list").slideDown(300);
+    // });
+    // $(".lang-back").click(function() {
+    //     $(".lang-back").fadeOut(300);
+    // });
+    // $(".lang-back").click(function() {
+    //     $(".currency .currency-list").slideUp(300);
+    // });
 
 
-    // This is to Open Language menu in large Screens
-    $(".user-terms .config").click(function() {
-        $(".overlay-box3").fadeIn(300);
-    });
-    $(".user-terms .config").click(function() {
-        $(".config .config-list").slideDown(300);
-    });
-    $(".overlay-box3").click(function() {
-        $(".overlay-box3").fadeOut(300);
-    });
-    $(".overlay-box3").click(function() {
-        $(".config .config-list").slideUp(300);
-    });
+    // // This is to Open Config menu in large Screens
+    // $(".user-terms .config").click(function() {
+    //     $(".overlay-box3").fadeIn(300);
+    // });
+    // $(".user-terms .config").click(function() {
+    //     $(".config .config-list").slideDown(300);
+    // });
+    // $(".overlay-box3").click(function() {
+    //     $(".overlay-box3").fadeOut(300);
+    // });
+    // $(".overlay-box3").click(function() {
+    //     $(".config .config-list").slideUp(300);
+    // });
 
 
     $('.main-slider .owl-carousel').owlCarousel({
