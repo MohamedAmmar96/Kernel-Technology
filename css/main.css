@@ -514,9 +514,9 @@ html[dir=ltr] .shop .counter {
 }
 
 .nav .close,
+.nav-list .nav-li:nth-child(1),
 .nav-list .nav-li:nth-child(2),
-.nav-list .nav-li:nth-child(15),
-.nav-list .nav-li:nth-child(16) {
+.nav-list .nav-li:nth-child(4) {
     display: none;
 }
 

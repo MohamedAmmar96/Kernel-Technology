@@ -1256,23 +1256,23 @@
     .nav-li .nav-link {
         font-size: 16px;
     }
+    .nav-list .nav-li:nth-child(1),
     .nav-list .nav-li:nth-child(2),
-    .nav-list .nav-li:nth-child(15),
-    .nav-list .nav-li:nth-child(16) {
+    .nav-list .nav-li:nth-child(4) {
         display: none;
     }
+    html[dir=ltr] .nav-list .nav-li:nth-child(1),
     html[dir=ltr] .nav-list .nav-li:nth-child(2),
-    html[dir=ltr] .nav-list .nav-li:nth-child(15),
-    html[dir=ltr] .nav-list .nav-li:nth-child(16) {
+    html[dir=ltr] .nav-list .nav-li:nth-child(4) {
         margin-right: 0;
         margin-left: 0;
     }
-    .nav-list .nav-li:nth-child(2),
-    .nav-list .nav-li:nth-child(15) {
+    .nav-list .nav-li:nth-child(1),
+    .nav-list .nav-li:nth-child(2) {
         padding-bottom: 0;
     }
-    .nav-list .nav-li:nth-child(2) .nav-link,
-    .nav-list .nav-li:nth-child(15) .nav-link {
+    .nav-list .nav-li:nth-child(1) .nav-link,
+    .nav-list .nav-li:nth-child(2) .nav-link {
         margin-bottom: 5px;
     }
     .nav .config-name,
