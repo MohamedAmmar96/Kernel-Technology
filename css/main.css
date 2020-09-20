@@ -39,6 +39,13 @@ body {
                                     Bootstrap Styles
 ==================================================================================*/
 
+
+/* .container {
+    width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+} */
+
 html[dir=ltr] .list-unstyled {
     padding-left: auto;
     padding-right: 0;
@@ -165,7 +172,7 @@ html[dir=ltr] .language .language-name::after {
 
 .currency .currency-list .currency-li,
 .language .language-list .language-li {
-    padding: 7px 10px;
+    padding: 7px 0 10px 0;
     position: relative;
 }
 
@@ -178,9 +185,9 @@ html[dir=ltr] .language .language-name::after {
     bottom: 0;
     right: 50%;
     transform: translateX(50%);
-    width: 70%;
-    height: 2px;
-    background-color: #e1e1e1;
+    width: 90%;
+    height: 1px;
+    background-color: #eaeaea;
 }
 
 .currency-list .currency-link,
@@ -470,7 +477,7 @@ html[dir=ltr] .shop .counter {
 }
 
 .config-list .config-list-li {
-    padding: 10px;
+    padding: 7px 0 10px 0;
     position: relative;
 }
 
@@ -480,9 +487,9 @@ html[dir=ltr] .shop .counter {
     bottom: 0;
     right: 50%;
     transform: translateX(50%);
-    width: 70%;
-    height: 2px;
-    background-color: #e1e1e1;
+    width: 90%;
+    height: 1px;
+    background-color: #eaeaea;
 }
 
 .config-list-li .config-link {
@@ -1321,7 +1328,19 @@ html[dir=ltr] .footer-icon-list .footer-icon-li:last-child {
 
 .footer-bottom .payment {
     text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
     margin-bottom: 50px;
+}
+
+.payment .first-payment .pay-img,
+.payment .last-payment .pay-img {
+    margin-right: 30px;
+}
+
+.payment .last-payment .pay-img:first-child {
+    margin-right: 0;
 }
 
 .footer-bottom .payment .payment-img {
