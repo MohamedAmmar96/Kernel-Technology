@@ -210,7 +210,7 @@
     html[dir=ltr] .nav .config-name,
     html[dir=ltr] .nav .currency-name,
     html[dir=ltr] .nav .language-name {
-        flex-direction: row-reverse;
+        direction: ltr;
         justify-content: space-between;
     }
     .nav .config-name::after,
@@ -474,11 +474,14 @@
     .payment .first-payment .pay-img {
         margin-right: 30px;
     }
-    .payment .first-payment .pay-img:first-child {
+    .payment .first-payment .pay-img:last-child {
         margin-right: 0;
     }
     .payment .last-payment .pay-img {
         margin-right: 20px;
+    }
+    .payment .last-payment .pay-img {
+        margin-left: 0;
     }
     .footer-bottom .copyrights {
         flex-direction: column;

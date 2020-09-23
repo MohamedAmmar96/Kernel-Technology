@@ -6,7 +6,7 @@ body {
     font-family: 'Tajawal', sans-serif;
     overflow-x: hidden;
     width: 100%;
-    direction: rtl;
+    /* direction: rtl; */
 }
 
 .overflow {
@@ -72,7 +72,7 @@ html[dir=ltr] .list-unstyled {
 }
 
 html[dir=ltr] .header .page-rools {
-    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 .welcome .welcome-content {
@@ -94,7 +94,7 @@ html[dir=ltr] .header .page-rools {
 }
 
 html[dir=ltr] .page-rools .page-lang-curr {
-    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 .page-lang-curr .currency,
@@ -127,7 +127,7 @@ html[dir=ltr] .page-lang-curr .currency {
 
 html[dir=ltr] .currency .currency-name,
 html[dir=ltr] .language .language-name {
-    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 .currency .currency-name:hover,
@@ -238,7 +238,7 @@ html[dir=ltr] .language .language-name::after {
 }
 
 html[dir=ltr] .menu-search {
-    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 .menu,
@@ -259,6 +259,7 @@ html[dir=ltr] .menu-search {
 
 html[dir=ltr] .menu,
 html[dir=ltr] .search {
+    direction: ltr;
     margin-left: auto;
     margin-right: 20px;
 }
@@ -292,7 +293,7 @@ html[dir=ltr] .search {
 }
 
 html[dir=ltr] .search-box .search-bar {
-    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 .search-bar .search-input {
@@ -358,7 +359,7 @@ html[dir=ltr] .search-bar .search-btn {
 }
 
 html[dir=ltr] .user-terms {
-    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 .user-terms .config,
@@ -377,7 +378,7 @@ html[dir=ltr] .user-terms {
 
 html[dir=ltr] .user-terms .config,
 html[dir=ltr] .user-terms .fav {
-    flex-direction: row-reverse;
+    direction: ltr;
     margin-right: 12px;
     margin-left: auto;
 }
@@ -412,7 +413,7 @@ html[dir=ltr] .fav .fav-icon {
 }
 
 html[dir=ltr] .config .config-name {
-    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 .config .config-name::after {
@@ -547,7 +548,7 @@ html[dir=ltr] .shop .counter {
 }
 
 html[dir=ltr] .nav .nav-list {
-    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 .nav-list .nav-li {
@@ -755,7 +756,7 @@ html[dir=ltr] .nav-list .nav-li {
 }
 
 html[dir=ltr] .mo-tabs {
-    flex-direction: row-reverse;
+    direction: ltr;
     justify-content: center;
 }
 
@@ -961,7 +962,7 @@ html[dir=ltr] .mo-tabs-li .mo-tabs-link {
 }
 
 html[dir=ltr] .slider-title {
-    flex-direction: row-reverse;
+    direction: ltr;
     padding-left: 30px;
     padding-right: 0;
     text-transform: uppercase;
@@ -1127,7 +1128,7 @@ html[dir=ltr] .slider-title .show-more {
 }
 
 html[dir=ltr] .features .feature {
-    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 .feature .feature-icon-box {
@@ -1199,7 +1200,7 @@ html[dir=ltr] .feature-content {
 }
 
 html[dir=ltr] .footer-top .footer-col-box {
-    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 html[dir=ltr] .footer-col {
@@ -1251,7 +1252,7 @@ html[dir=ltr] .footer-col .footer-heading {
 }
 
 html[dir=ltr] .newsletter-box {
-    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 .newsletter-box .newsletter-input {
@@ -1299,7 +1300,7 @@ html[dir=ltr] .newsletter-box .subscribe {
 }
 
 html[dir=ltr] .footer-icon-list {
-    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 .footer-icon-list .footer-icon-li {
@@ -1349,7 +1350,7 @@ html[dir=ltr] .footer-icon-list .footer-icon-li:last-child {
 .footer-bottom .payment {
     text-align: center;
     display: flex;
-    flex-direction: row-reverse;
+    direction: ltr;
     justify-content: center;
     margin-bottom: 50px;
 }
@@ -1359,7 +1360,22 @@ html[dir=ltr] .footer-icon-list .footer-icon-li:last-child {
     margin-right: 30px;
 }
 
-.payment .last-payment .pay-img:first-child {
+
+/* html[dir=ltr] .payment .first-payment .pay-img,
+html[dir=ltr] .payment .last-payment .pay-img {
+    margin-right: 0;
+    margin-left: 30px;
+} */
+
+.payment .last-payment .pay-img:last-child {
+    margin-right: 0;
+}
+
+html[dir=ltr] .payment .first-payment .pay-img:first-child {
+    margin-left: 0;
+}
+
+html[dir=ltr] .payment .last-payment .pay-img:last-child {
     margin-right: 0;
 }
 
@@ -1377,11 +1393,15 @@ html[dir=ltr] .footer-icon-list .footer-icon-li:last-child {
 }
 
 html[dir=ltr] .footer-bottom .copyrights {
-    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 .copyrights .last-p .tasawk {
     margin-right: 5px;
+}
+
+html[dir=ltr] .copyrights .last-p {
+    direction: ltr;
 }
 
 html[dir=ltr] .copyrights .last-p .tasawk {
